@@ -1,0 +1,3 @@
+name (MovieResult) {
+  description (영화 추천 결과)
+}

@@ -1,0 +1,5 @@
+train (t-ifbpagw091pn3l36fx9iooaoz) {
+  utterance ([g:MovieUpComming] 개봉 예정작 알려줘.)
+  plan (Y2BikEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxSHvC+KGFjgDuZl56QyMQMgAxUASAA==)
+  last-modified (1557727571897)
+}

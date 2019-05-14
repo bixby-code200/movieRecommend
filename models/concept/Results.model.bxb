@@ -1,0 +1,27 @@
+structure (Results) {
+  description (결과)
+  property (movieTitle) {
+    type (MovieTitle)
+    min (Required) max (One)
+  }
+  property (movieGenre) {
+    type (MovieGenre)
+    min (Required) max (One)
+  }
+  property (movieScore) {
+    type (MovieScore)
+    min (Required) max (One)
+  }
+  property (moviePosterUrl) {
+    type (MoviePosterUrl)
+    min (Required) max (One)
+  }
+  property (movieDescription) {
+    type (MovieDescription)
+    min (Required) max (One)
+  }
+  property (movieOpenDate) {
+    type (MovieOpenDate)
+    min (Required) max (One)
+  }
+}

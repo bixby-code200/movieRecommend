@@ -1,0 +1,5 @@
+train (t-payh3k03cz54g1301c6pukhu4) {
+  utterance ("[g:MovieRecommend] (가족영화)[v:InputGenre:가족] 추천해줘.")
+  plan (Y2BmkEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxSHvi8JlUMShzDOvoLTEPTWvKJWBiYERiBmAJCMDCED5AA==)
+  last-modified (1557803424705)
+}

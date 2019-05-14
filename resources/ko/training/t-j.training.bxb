@@ -1,0 +1,5 @@
+train (t-jkrm4h5v829tg3cr6w3dn9888) {
+  utterance ("[g:MovieRecommend] (공포영화)[v:InputGenre:공포] 추천해줘.")
+  plan (Y2BmkEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxSHvi8JlUMShzDOvoLTEPTWvKJWBiYERiBmAJCMDCED5AA==)
+  last-modified (1557804860887)
+}

@@ -1,0 +1,5 @@
+action (MovieUpComming) {
+  description (개봉 예정작을 알려준다.)
+  type (Search)
+  output (Results)
+}

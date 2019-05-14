@@ -1,0 +1,62 @@
+layout {
+  match: Results (result)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        image-card {
+          aspect-ratio (3:4)
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("#{value(result.movieTitle)}")
+                style (Title_L)
+              }
+            }
+          // images (result.moviePosterUrl)
+          }
+          image-url ("[#{value(result.moviePosterUrl)}]")
+        }
+        title-area {
+          halign (Start)
+          slot1 {
+            text {
+              value ("장르 : #{value(result.movieGenre)}")
+              style (Title_XS)
+            }
+          }
+          slot2 {
+            paragraph {
+              value {
+                template ("평점 : #{value(result.movieScore)}")
+                template ("장르 : #{value(result.movieGenre)}")
+              }
+              style (Title_XS)
+            }
+          }
+          slot3 {
+            single-line {
+              text {
+                value {
+                    template ("#{value(result.movieOpenDate)} 개봉")
+                }
+                style (Detail_M)
+              }
+            }
+          }
+        }
+      }
+    }
+    section {
+      title ("요약")
+      content {
+        paragraph {
+          value ("#{value(result.movieDescription)}")
+          style (Detail_L)
+        }
+      }
+    }
+  }
+}

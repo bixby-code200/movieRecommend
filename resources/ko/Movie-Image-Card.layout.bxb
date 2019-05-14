@@ -1,0 +1,31 @@
+layout-macro-def (movie-image-card) {
+  params {
+    param (results) {
+      type (Results)
+      min (Required) max (One)
+    }
+  }
+  content {
+    image-card {
+      aspect-ratio (4:3)
+      title-area {
+        halign (Start)
+        slot1 {
+          text {
+            value ("#{value(results.movieTitle)}")
+            style (Title_M)
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("평점: #{value(results.movieScore)}")
+              style (Detail_L)
+            }
+          }
+        }
+      }
+      image-url ("[#{value(results.moviePosterUrl)}]")
+    }
+  }
+}

@@ -1,0 +1,13 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (MovieRecommend) {
+      local-endpoint (movieRecommend.js)
+    }
+    action-endpoint (MovieUpComming) {
+      local-endpoint (movieUpComming.js)
+    }
+    action-endpoint (MovieNowPlaying) {
+      local-endpoint (movieNowPlaying.js)
+    }
+  }
+}

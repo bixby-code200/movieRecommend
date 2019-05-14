@@ -1,0 +1,5 @@
+train (t-cda8zsohvcyv9mof9pl5u6n5h) {
+  utterance ([g:MovieNowPlaying] 현재 상영작 알려줘.)
+  plan (Y2BikEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQwyHvC+L65ZcH5CRWZualMzACIQMUA0kA)
+  last-modified (1557730391499)
+}

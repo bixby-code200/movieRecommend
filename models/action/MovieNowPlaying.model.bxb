@@ -1,0 +1,5 @@
+action (MovieNowPlaying) {
+  description (현재 상영작을 알려준다.)
+  type (Search)
+  output (Results)
+}
