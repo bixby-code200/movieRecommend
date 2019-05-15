@@ -1,0 +1,7 @@
+structure (TestGenre) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (TestGenreName)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,5 @@
+train (t-82p7d13yyov8nx87hiclr8nv4) {
+  utterance ("[g:MovieSimilar] (컨저링)[v:InputMovie] 비슷한 영화 추천해줘")
+  plan (Y2BmkEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxiHvC+IGZ+Zm5iQWMSjiUOSZV1BaAlbJwMTACMQMQJKRAQSgfAA=)
+  last-modified (1557823046428)
+}

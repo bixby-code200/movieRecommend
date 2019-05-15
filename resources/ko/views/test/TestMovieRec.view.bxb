@@ -1,0 +1,29 @@
+result-view {
+  match: Results (results) {
+    from-output: TestMovieRec
+  }
+
+  message {
+    template ("추천 영화입니다.")
+  }
+
+  render {
+    if (size(results) > 1) {
+      list-of (results) {
+        has-details (true)
+        where-each (item) {
+          layout-macro (movie-image-card) {
+            param (results) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    else-if (size(results) == 1) {
+      layout-match (results) {
+        mode (Details)
+      }
+    }
+  }
+}

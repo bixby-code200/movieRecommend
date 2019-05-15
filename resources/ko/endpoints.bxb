@@ -9,5 +9,16 @@ endpoints {
     action-endpoint (MovieNowPlaying) {
       local-endpoint (movieNowPlaying.js)
     }
+    
+    
+    action-endpoint (TestMovieRec) {
+      local-endpoint (movieRecommend.js)
+    }
+    action-endpoint (TestFindGenre) {
+      local-endpoint (test/testFindGenre.js)
+    }
+    action-endpoint (MovieSimilar) {
+      local-endpoint (movieSimilar.js)
+    }
   }
 }

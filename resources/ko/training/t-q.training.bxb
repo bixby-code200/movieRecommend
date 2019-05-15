@@ -1,5 +1,5 @@
 train (t-qtkpm49b4sbsh9l02urf92n4q) {
-  utterance ([g:MovieRecommend] 영화 추천해줘.)
-  plan (Y2BikEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxSHvi8JlYARCBigGkgA=)
-  last-modified (1557730849386)
+  utterance ([g:TestMovieRec] 영화 추천해줘.)
+  plan (Y2BmkEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxiEfklpc4gsVYlDAo8g9Na8olYGJgRGIGYAkIwMDjAYA)
+  last-modified (1557878277785)
 }

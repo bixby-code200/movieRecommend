@@ -1,0 +1,5 @@
+train (t-gl1x8h7da0qugmnl87867kf30) {
+  utterance ("[g:MovieSimilar] (어벤져스)[v:InputMovie] 비슷한 영화 추천해줘")
+  plan (Y2BmkEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxiHvC+IGZ+Zm5iQWMSjiUOSZV1BaAlbJwMTACMQMQJKRAQSgfAA=)
+  last-modified (1557821812253)
+}

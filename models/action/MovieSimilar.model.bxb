@@ -1,0 +1,11 @@
+action (MovieSimilar) {
+  description (비슷한 영화 추천)
+  collect {
+    input (inputMovie) {
+      type (InputMovie)
+      min (Required) max (One)
+    }
+  }
+  type (Search)
+  output (Results)
+}

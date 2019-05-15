@@ -3,3 +3,9 @@ train (t-jkrm4h5v829tg3cr6w3dn9888) {
   plan (Y2BmkEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxSHvi8JlUMShzDOvoLTEPTWvKJWBiYERiBmAJCMDCED5AA==)
   last-modified (1557804860887)
 }
+train (t-jnpob3387bxzm7dgvkw889m7x) {
+  utterance ([g:TestMovieRec] 테스트)
+  plan (Y2BmkEvOT0k1MjDQy80vy0wNSk3Oz81NzUvRC0otLs0pKWZQxiEfklpc4gsVYlDAo8g9Na8olYGJgRGIGYAkIwMDjAYA)
+  enabled (false)
+  last-modified (1557878273902)
+}

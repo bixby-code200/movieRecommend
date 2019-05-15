@@ -3,17 +3,21 @@ var http = require('http')
 var console = require('console')
 
 module.exports.function = function movieRecommend (inputGenre) {
-  console.log(inputGenre)
   const baseImageUrl = 'https://image.tmdb.org/t/p/w500/'
   const baseUrl = 'https://api.themoviedb.org/3/movie/popular?api_key=295b8efeee781caec375a1c950261736&language=ko-KR&region=KR&page='
   const url = 'https://api.themoviedb.org/3/movie/popular?api_key=295b8efeee781caec375a1c950261736&language=ko-KR&page=1&region=KR'
   
   const results = []
   let inGenre = false
-  
-  if (inputGenre) {
+
+  console.log((typeof inputGenre === 'object' && inputGenre.name != '전체') || (typeof inputGenre === 'string'))
+//   inputGenre가 object이면서 전체가 아니면, inputGenre가 string이면
+  if ((typeof inputGenre === 'object' && inputGenre.name != '전체') || (typeof inputGenre === 'string')) {
+    if (inputGenre.name){
+      inputGenre = inputGenre.name
+    }
     if (inputGenre.slice(inputGenre.length - 2, inputGenre.length) === '영화'){
-      inputGenre = inputGenre.slice(0, inputGenre.length - 2)
+      inputGenre.name = inputGenre.slice(0, inputGenre.length - 2)
     }
     const inputGenreId = getKeyByValue(genres, inputGenre) * 1
     let page = 1
@@ -44,7 +48,7 @@ module.exports.function = function movieRecommend (inputGenre) {
       })
       page++
     }
-  } else {
+  } else { // inputGenre가 object면서 inputGenre.name이 전체면
     var response = http.getUrl(url, {format: 'json'})
     response.results.forEach(function(result){
       const data = {

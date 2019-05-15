@@ -1,0 +1,19 @@
+action (TestMovieRec) {
+  description (영화를 추천한다.)
+  collect {
+    input (inputGenre) {
+      type (TestGenre)
+      min (Required) max (One)
+      
+      prompt-behavior (AlwaysSelection)
+
+      default-init {
+        intent {
+          goal: TestFindGenre
+        }
+      }
+    }
+  }
+  type (Search)
+  output (Results)
+}
