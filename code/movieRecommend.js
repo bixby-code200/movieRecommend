@@ -10,7 +10,6 @@ module.exports.function = function movieRecommend (inputGenre) {
   const results = []
   let inGenre = false
 
-  console.log((typeof inputGenre === 'object' && inputGenre.name != '전체') || (typeof inputGenre === 'string'))
 //   inputGenre가 object이면서 전체가 아니면, inputGenre가 string이면
   if ((typeof inputGenre === 'object' && inputGenre.name != '전체') || (typeof inputGenre === 'string')) {
     if (inputGenre.name){
